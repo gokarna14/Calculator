@@ -11,15 +11,27 @@ struct ContentView: View {
 
     var body: some View {
         ZStack {
-            Color.black.edgesIgnoringSafeArea(.all)
+            Color.clear.edgesIgnoringSafeArea(.all)
             VStack(spacing: 12) {
+                VStack{
+                    Divider()
+                        .background(Color.blue)
+                        .frame(height: 2)
+                    Text("Welcome to Fancy Calculator")
+                        .padding()
+                        .font(.title)
+                        .italic()
+                    Rectangle()
+                        .fill(Color.gray)
+                        .frame(height: 1)
+                        .padding(.horizontal)
+                }
                 Spacer()
-
                 HStack {
                     Spacer()
                     Text(viewModel.display)
                         .font(.system(size: 64))
-                        .foregroundColor(.white)
+//                        .foregroundColor()
                 }.padding()
 
                 VStack(spacing: 12) {
@@ -57,7 +69,8 @@ struct ContentView: View {
                         CalculatorButtonView(button: .equal).environmentObject(viewModel)
                     }
                 }
-            }.padding(.bottom)
+            }
+            .padding(.bottom)
         }
     }
 }

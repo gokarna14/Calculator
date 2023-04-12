@@ -1,3 +1,10 @@
+//
+//  ContentView.swift
+//  Calculator
+//
+//  Created by Prabas Adhikari on 12/04/2023.
+//
+
 import SwiftUI
 
 struct CalculatorButtonView: View {
@@ -26,11 +33,11 @@ struct CalculatorButtonView: View {
     private func buttonColor() -> Color {
         switch button {
         case .zero, .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .decimal:
-            return Color(.darkGray)
+            return Color(.black)
         case .clear, .negative, .percent:
-            return Color(.lightGray)
+            return Color(.red)
         default:
-            return Color(.orange)
+            return Color(.brown)
         }
     }
 }
