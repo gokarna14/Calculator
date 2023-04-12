@@ -12,6 +12,7 @@
 		BE6C47E929E696C400FAF9B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6C47E829E696C400FAF9B7 /* Assets.xcassets */; };
 		BE6C47EC29E696C400FAF9B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6C47EB29E696C400FAF9B7 /* Preview Assets.xcassets */; };
 		BE6C47F329E6981300FAF9B7 /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6C47F229E6981300FAF9B7 /* CalculatorButton.swift */; };
+		BE6C47F529E6985400FAF9B7 /* CalculatorButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6C47F429E6985400FAF9B7 /* CalculatorButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		BE6C47E829E696C400FAF9B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE6C47EB29E696C400FAF9B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BE6C47F229E6981300FAF9B7 /* CalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
+		BE6C47F429E6985400FAF9B7 /* CalculatorButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				BE6C47E429E696C300FAF9B7 /* CalculatorApp.swift */,
 				BE6C47E629E696C300FAF9B7 /* ContentView.swift */,
+				BE6C47F429E6985400FAF9B7 /* CalculatorButtonView.swift */,
 				BE6C47F229E6981300FAF9B7 /* CalculatorButton.swift */,
 				BE6C47E829E696C400FAF9B7 /* Assets.xcassets */,
 				BE6C47EA29E696C400FAF9B7 /* Preview Content */,
@@ -142,6 +145,7 @@
 			files = (
 				BE6C47E729E696C300FAF9B7 /* ContentView.swift in Sources */,
 				BE6C47F329E6981300FAF9B7 /* CalculatorButton.swift in Sources */,
+				BE6C47F529E6985400FAF9B7 /* CalculatorButtonView.swift in Sources */,
 				BE6C47E529E696C300FAF9B7 /* CalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
